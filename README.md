@@ -41,6 +41,6 @@ php artisan serve
 <!-- 
 Catatan Arsitektur MVC:
 1. Model bertanggung jawab atas struktur data dan interaksi langsung dengan database, 
-2. View berfokus menangani antarmuka visual yang akan dilihat oleh pengguna. 
-3. Controller bertindak sebagai jembatan utama yang menerima permintaan pengguna, mengambil atau menyimpan data melalui Model, dan mengirimkan hasilnya untuk ditampilkan secara rapi pada View. 
+2. View berfokus menangani antarmuka pengguna yang akan dilihat oleh pengguna. 
+3. Controller bertindak sebagai jembatan utama yang menerima permintaan pengguna, mengambil atau menyimpan data melalui Model, dan mengirimkan hasilnya untuk ditampilkan pada View. 
 -->
