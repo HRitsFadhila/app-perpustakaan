@@ -8,9 +8,9 @@ use Illuminate\Http\Request;
 class MemberController extends Controller
 {
     private array $members = [
-        ['id' => 1, 'nama' => 'Ahmad Fauzi', 'nim' => '2104111001', 'email' => 'ahmad@student.com', 'nomor_telepon' => '081234567890', 'alamat' => 'Jl. Merdeka No. 10, Surabaya', 'status' => 'aktif'],
-        ['id' => 2, 'nama' => 'Siti Aminah', 'nim' => '2104111002', 'email' => 'siti@student.com', 'nomor_telepon' => '089876543210', 'alamat' => 'Jl. Pahlawan No. 45, Surabaya', 'status' => 'aktif'],
-        ['id' => 3, 'nama' => 'Budi Santoso', 'nim' => '2104111003', 'email' => 'budi@student.com', 'nomor_telepon' => '085612345678', 'alamat' => 'Jl. Pemuda No. 12, Surabaya', 'status' => 'nonaktif'],
+        ['id' => 1, 'nama' => 'Siti Aminah', 'nim' => '2310501001', 'email' => 'siti.aminah@pens.ac.id', 'nomor_telepon' => '081234567890', 'status' => 'aktif'],
+        ['id' => 2, 'nama' => 'Budi Santoso', 'nim' => '2310501002', 'email' => 'budi.santoso@pens.ac.id', 'nomor_telepon' => '081298765432', 'status' => 'aktif'],
+        ['id' => 3, 'nama' => 'Dewi Lestari', 'nim' => '2310501003', 'email' => 'dewi.lestari@pens.ac.id', 'nomor_telepon' => '081211122233', 'status' => 'nonaktif'],
     ];
     /**
      * Display a listing of the resource.

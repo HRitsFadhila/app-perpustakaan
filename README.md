@@ -20,7 +20,7 @@ git clone https://github.com/HRitsFadhila/app-perpustakaan.git
 
 2. Masuk ke directory project
 ```bash
-cd sistem-antrian
+cd app-perpustakaan
 ```
 
 3. Install depedensi PHP
